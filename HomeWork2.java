@@ -31,14 +31,14 @@ public class HomeWork2 {
             System.out.println(text);
         }
     }
-    static boolean god(int a) {
+    /*static boolean god(int a) {
         int x=(a=0;a<4; a++)&&(a=0; a=!100; a++) && (a=0;a<400; a++);
         if (a==x){
             return true;
         } else {
             return false;
         }
-    }
+    }*/
 
 }
 
