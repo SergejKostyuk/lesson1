@@ -1,6 +1,6 @@
 package ru.gb.lesson1;
 
-public class HomeWotk {
+public class HomeWork {
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
@@ -36,13 +36,7 @@ public class HomeWotk {
     public static void compareNumbers() {
         int a = 20;
         int b = 20;
-        if (a >= b) {
-            System.out.println("a>=b");
-        } else {
-            System.out.println("a<b");
-
-        }
-
+        System.out.println(a >= b ? "a>=b" : "a<b");
     }
 
 }
