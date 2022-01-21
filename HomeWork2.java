@@ -6,25 +6,18 @@ public class HomeWork2 {
         resultat(-10);
         System.out.println(znachenie(12));
         stringN("hello", 5);
-        System.out.println(god());
+       // System.out.println(god());
     }
     static boolean summ(int a, int b){
        int c = a+b;
        return (c>=10 && c<=20);
     }
    static void resultat(int a){
-        if (a>=0){
-            System.out.println("Число положительное");
-        } else {
-            System.out.println("Число отрицательное");
-        }
+       System.out.println( a>0 ? "Число положительное": "Число отрицательное");
+
     }
     static boolean znachenie(int a){
-        if (a<0){
-            return true;
-        } else {
-            return false;
-        }
+        return a<0;
     }
     static void stringN(String text, int a ){
         for ( ;a<10; a++){
