@@ -19,8 +19,9 @@ public class HomeWork2 {
     static boolean znachenie(int a){
         return a<0;
     }
-    static void stringN(String text, int a ){
-        for ( ;a<10; a++){
+    static void stringN(String text, int b ){
+        int a;
+        for (a=0 ;a<b; a++){
             System.out.println(text);
         }
     }
