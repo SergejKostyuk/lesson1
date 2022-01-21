@@ -6,7 +6,7 @@ public class HomeWork2 {
         resultat(-10);
         System.out.println(znachenie(12));
         stringN("hello", 5);
-       // System.out.println(god());
+        System.out.println(god(1561));
     }
     static boolean summ(int a, int b){
        int c = a+b;
@@ -25,14 +25,9 @@ public class HomeWork2 {
             System.out.println(text);
         }
     }
-    /*static boolean god(int a) {
-        int x=(a=0;a<4; a++)&&(a=0; a=!100; a++) && (a=0;a<400; a++);
-        if (a==x){
-            return true;
-        } else {
-            return false;
-        }
-    }*/
+    static boolean god(int a) {
+        return (a % 4 == 0 && a % 100 != 0) && a % 400 == 0;
+    }
 
 }
 
