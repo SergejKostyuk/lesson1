@@ -14,7 +14,7 @@ public class HomeWork3 {
         System.out.println();
         zad4();
         System.out.println();
-        zad5(4,4);
+        zad5_2(zad5_1(9,8));
     }
     static void zad1(){
         System.out.println("Задание 1");
@@ -71,11 +71,19 @@ public class HomeWork3 {
             System.out.println();
             }
     }
-    static int [] zad5(int len, int initialValue){
+    static int [] zad5_1(int len, int initialValue){
         System.out.println("Задание 5");
         int [] arr= new int[len];
-        Arrays.fill(arr, initialValue);
+        for (int i = 0; i < arr.length; i++){
+            arr[i] = initialValue;
+        }
         return arr;
+    }
+    static void zad5_2(int[] inputArray) {
+        for (int i = 0; i < inputArray.length; i++) {
+            System.out.print(inputArray[i] + " ");
+        }
+        System.out.println();
     }
 }
 
